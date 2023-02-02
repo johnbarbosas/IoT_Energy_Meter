@@ -10,7 +10,7 @@ Já existem diversos medidores de energia que podem monitorar o consumo de cada 
 **Materiais utilizados**
 <p> Para a prototipagem inicial foram utilizados os materiais disponibilizados pelo FIT e sensores próprios dos alunos. </p>
 - 2x resistores de 10 kΩ;<br />
-- 1 resistor de 33 Ω;<br />
+- 1x resistor de 33 Ω;<br />
 - 1x capacitor de 100 uF e 35V;<br />
 - 1x Arduino RP2040;<br />
 - 1x Protoboard de 400 furos;<br />
