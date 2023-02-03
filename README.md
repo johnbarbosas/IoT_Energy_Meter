@@ -10,7 +10,7 @@ Já existem diversos medidores de energia que podem monitorar o consumo de cada 
 <h2>Descrição do projeto</h2>
 <p align="justify"> Este projeto tem como objetivo a construção de um dispositivo que faça a medição do consumo de energia elétrica de um equipamento ou sistema de forma prática e menos invasiva possível com componentes acessiveis. O funcionamento do dispositivo se dá por dois sensores, um de corrente e outro de tensão elétrica, os valores obtidos por eles são enviados a um microcontrolador que irá realizar os cálculos de potência, energia consumida e o custo financeiro desta energia.</p>
 
-***Materiais utilizados:***
+<h3>Materiais utilizados:</h3>
 <p> Para a prototipagem inicial foram utilizados os materiais disponibilizados pelo FIT e sensores próprios dos alunos, sendos listados a seguir. </p>
 - 2x resistores de 10 kΩ;<br />
 - 1x resistor de 33 Ω;<br />
@@ -30,7 +30,7 @@ Já existem diversos medidores de energia que podem monitorar o consumo de cada 
   </div>
   </ br>
   
-  ***Sensores:***
+ <h3> Sensores:</h3>
 <div style="display: inline_block" align="center">
  <img height="350em" src="https://raw.githubusercontent.com/johnbarbosas/IoT_Energy_Meter/main/README_img/zmpt101b.jpeg"/>
  <p>Fig.2. Sensor de tensão zmpt101b.</p> 
@@ -41,7 +41,7 @@ Já existem diversos medidores de energia que podem monitorar o consumo de cada 
  <p>Fig.3. Sensor de corrente SCT013.</p> 
   </div>
 
-<h3>Processos de medição</h3>
+<h3>Processos de medição:</h3>
 
   
   <h2>Virtual Machine | Broker | NodeRED</h2>
