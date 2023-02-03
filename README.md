@@ -57,6 +57,8 @@ Um esquema exemplo, com o Arduino Uno, pode ser visto na figura a seguir.
   
   Foi criada uma máquina virtual (MV), gratuitamente, no [Amazon Web Service] e instalado um broker MQTT através do [vídeo] tutorial do YouTube. Nessa MV foi instalado também o NodeRED seguindo o [passo a passo] da própria plataforma.
   
+  O NodeRED foi usado para fazer o front-end do projeto, disponibilizando os dados numericamente e em forma gráfica ao longo do tempo. Seu funcionamento é através de blocos e da linguagem JavaScript. Todos os blocos estão disponíveis na pasta chamada NodeRED.
+  
   
   [MQTT]: https://mqtt.org/
   [Amazon Web Service]: https://aws.amazon.com/pt/
