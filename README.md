@@ -28,15 +28,18 @@ Já existem diversos medidores de energia que podem monitorar o consumo de cada 
 <div style="display: inline_block" align="center">
  <img height="350em" src="https://docs.arduino.cc/static/a4d65079ebe3058e37153eb0f93890a8/ABX00053-pinout.png"/>
  <p>Fig.1. Pinagens do Arduino RP2040.</p> 
-  </div>
-  </ br>
+ </div>
+ </ br>
   
  <h3> Sensores:</h3>
+ <p align="justify">Para a medição da tensão utilizou-se o módulo sensor de tensão AC Zmpt101b, figura 2, cujo a maior tensão que pode ser aferida sendo de 250 Vrms, necessitando apenas de 5V para a alimentação do circuito de condicionamento de sinal e de 2 mA, sendo assim uma excelente opção.</p>
 <div style="display: inline_block" align="center">
  <img height="350em" src="https://raw.githubusercontent.com/johnbarbosas/IoT_Energy_Meter/main/README_img/zmpt101b.jpeg"/>
  <p>Fig.2. Sensor de tensão zmpt101b.</p> 
   </div>
   
+ <p align="justify">Para a medição da corrente utilizou-se de um sensor não invasivo, pois assim, tornaria a montagem do circuito mais simples, além de trazer um fácil acesso a medição. Com isso, utilizou-se o sensor SCT 013, figura 3, que é um sensor transformador de corrente, que através da sua relação de espiras consegue fornecer na saída do sensor uma corrente de 50 mA no plug com conexão P2 quando no cabo da carga estiver passando uma corrente de 100A.</p>
+ 
 <div style="display: inline_block" align="center">
  <img height="350em" src="https://raw.githubusercontent.com/johnbarbosas/IoT_Energy_Meter/main/README_img/Sensor_de_corrente.jpeg"/>
  <p>Fig.3. Sensor de corrente SCT013.</p> 
