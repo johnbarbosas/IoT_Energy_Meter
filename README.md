@@ -25,6 +25,9 @@ Já existem diversos medidores de energia que podem monitorar o consumo de cada 
 
 <h3>Microcontrolador:</h3>
 
+<p align="justify">Para realizar os cálculos, processamentos e envios de dados para a nuvem utilizou-se o microcontrolador nano RP2040, que faz parte da linha de Arduinos. Este microcontrolador traz diversos benefícios: ótimo processamento, pequenas dimensões físicas e módulo WiFi embarcado, diferente dos outros arduinos. Este microcontrolador poderia ser substituído pelo ESP826 ou ESP32, mas estes deveriam ter suas ADCs calibradas. 
+A seguir, tem-se o diagrama das pinagens do RP2040.</p>
+
 <div style="display: inline_block" align="center">
  <img height="350em" src="https://docs.arduino.cc/static/a4d65079ebe3058e37153eb0f93890a8/ABX00053-pinout.png"/>
  <p>Fig.1. Pinagens do Arduino RP2040.</p> 
