@@ -41,6 +41,8 @@ Já existem diversos medidores de energia que podem monitorar o consumo de cada 
  <p>Fig.3. Sensor de corrente SCT013.</p> 
   </div>
 
+<h3>Processos de medição</h3>
+
   
   <h2>Virtual Machine | Broker | NodeRED</h2>
   
