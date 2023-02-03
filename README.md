@@ -58,10 +58,12 @@ A montagem do circuito em protoboard pode ser visto na figura a seguir.
  <p>Fig.4. Montagem do sensor de tensão na protoboard.</p> 
 </div>
 
-<p>Para utilizar este sensor foi desenvolvido o código visto a seguir, onde inicialmente analisou-se o sinal de uma tomada da sala de instruções do curso para realizar a calibração. Primeiro foi analisada a forma de onda emita pelo sensor ligada à tomada, e depois, atribui-se o valor para a variável CAL_VOLT, que iria realizar a calibração dos valores dados pelo ADC e converte-los para volts, o valor definido foi com base nas tentativas empíricas onde os valores da curva mais se adequavam aos valores reais, medidos com um multímetro Fluke.</p>
+<p>Para utilizar este sensor foi desenvolvido um código onde inicialmente analisou-se o sinal de uma tomada da sala de instruções do curso para realizar a calibração. Primeiro foi analisada a forma de onda emita pelo sensor ligada à tomada, e depois, atribui-se o valor para a variável CAL_VOLT, que iria realizar a calibração dos valores dados pelo ADC e converte-los para volts, o valor definido foi com base nas tentativas empíricas onde os valores da curva mais se adequavam aos valores reais, medidos com um multímetro Fluke.</p>
+<p>O código elaborado realiza o cálculo do valor rms no laço "for" mais interno realiza a coleta de 360 amostras de um ciclo da senoide, ou seja, a cada um grau dela, guardando este valor na variável leitura, depois este valor é elevado ao quadrado, e com isso, acrescentado a variável tensão.</p>
 
- 
-<p>O código elaborado realiza o cálculo do valor rms laço for mais interno realiza a coleta de 360 amostras de um ciclo da senoide, ou seja, a cada um grau dela, guardando este valor na variável leitura, depois este valor é elevado ao quadrado, e com isso, acrescentado a variável tensão.</p>
+<p>Como já mencionado, usou-se o sensor SCT013 para medir a corrente do circuito. Como este sensor é um transformador de corrente, sua saída não pode ser ligada direta a entrada analógica do Arduino, precisou-se adicionar um resistor na saída do sensor para limitar a tensão de entrada do MCU. Além de adicionar um sensor de carga é necessário aplicar um offset de 2,5V na forma de onda, para que o microcontrolador não receba valores negativos. 
+Para realizar o offset utilizou-se um divisor de tensão com os resistores de 10k e um capacitor de filtragem de 100uF e para o resistor de carga utilizou-se de 33. A montagem pode ser vista na figura abaixo.</p>	
+
 
   
   <div style="display: inline_block" align="center">
