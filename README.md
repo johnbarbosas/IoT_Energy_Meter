@@ -44,7 +44,7 @@ Já existem diversos medidores de energia que podem monitorar o consumo de cada 
 
 <h3>Processos de medição:</h3>
 <p align="justify">Nesta etapa utilizou-se o módulo zmpt101b ligado ao Arduino RP2040 juntamente com a protoboard e jumpers para conexão. Os dois pinos GNDs do módulo foram ligados ao GND do Arduino, o pino VCC ao pino Vin e o Vout conectou-se à porta analógica A2.
-Um esquema exemplo, com o Arduino Uno, pode ser visto na figura a seguir.
+a montagem do circuito em protoboard pode ser visto na figura a seguir.
 </p>
 <div style="display: inline_block" align="center">
  <img height="350em" src="https://raw.githubusercontent.com/johnbarbosas/IoT_Energy_Meter/main/README_img/sensor-de-tensao-ac-zmpt101b-voltimetro-arduino.jpg"/>
