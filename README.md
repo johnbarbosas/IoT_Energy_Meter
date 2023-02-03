@@ -46,10 +46,17 @@ Já existem diversos medidores de energia que podem monitorar o consumo de cada 
 <p align="justify">Nesta etapa utilizou-se o módulo zmpt101b ligado ao Arduino RP2040 juntamente com a protoboard e jumpers para conexão. Os dois pinos GNDs do módulo foram ligados ao GND do Arduino, o pino VCC ao pino Vin e o Vout conectou-se à porta analógica A2.
 A montagem do circuito em protoboard pode ser visto na figura a seguir.
 </p>
+
 <div style="display: inline_block" align="center">
  <img height="350em" src="https://raw.githubusercontent.com/johnbarbosas/IoT_Energy_Meter/main/README_img/montagem_do_sensor_de_tensao.jpeg"/>
  <p>Fig.4. Montagem do sensor de tensão na protoboard.</p> 
 </div>
+
+<p>Para utilizar este sensor foi desenvolvido o código visto a seguir, onde inicialmente analisou-se o sinal de uma tomada da sala de instruções do curso para realizar a calibração. Primeiro foi analisada a forma de onda emita pelo sensor ligada à tomada, e depois, atribui-se o valor para a variável CAL_VOLT, que iria realizar a calibração dos valores dados pelo ADC e converte-los para volts, o valor definido foi com base nas tentativas empíricas onde os valores da curva mais se adequavam aos valores reais, medidos com um multímetro Fluke.</p>
+
+ 
+<p>O código elaborado realiza o cálculo do valor rms laço for mais interno realiza a coleta de 360 amostras de um ciclo da senoide, ou seja, a cada um grau dela, guardando este valor na variável leitura, depois este valor é elevado ao quadrado, e com isso, acrescentado a variável tensão.</p>
+
   
   <div style="display: inline_block" align="center">
  <img height="350em" src="https://raw.githubusercontent.com/johnbarbosas/IoT_Energy_Meter/main/README_img/montagem_do_sensor_de_corrente.jpeg"/>
