@@ -11,7 +11,7 @@ Já existem diversos medidores de energia que podem monitorar o consumo de cada 
 <p align="justify"> Este projeto tem como objetivo a construção de um dispositivo que faça a medição do consumo de energia elétrica de um equipamento ou sistema de forma prática e menos invasiva possível com componentes acessiveis. O funcionamento do dispositivo se dá por dois sensores, um de corrente e outro de tensão elétrica, os valores obtidos por eles são enviados a um microcontrolador que irá realizar os cálculos de potência, energia consumida e o custo financeiro desta energia.</p>
 
 ***Materiais utilizados:***
-<p> Para a prototipagem inicial foram utilizados os materiais disponibilizados pelo FIT e sensores próprios dos alunos. </p>
+<p> Para a prototipagem inicial foram utilizados os materiais disponibilizados pelo FIT e sensores próprios dos alunos, sendos listados a seguir. </p>
 - 2x resistores de 10 kΩ;<br />
 - 1x resistor de 33 Ω;<br />
 - 1x capacitor de 100 uF e 35V;<br />
