@@ -32,13 +32,13 @@ Já existem diversos medidores de energia que podem monitorar o consumo de cada 
   
   ***Sensores:***
 <div style="display: inline_block" align="center">
- <img height="350em" src="https://raw.githubusercontent.com/johnbarbosas/IoT_Energy_Meter/main/README_img/Sensor_de_corrente.jpeg"/>
- <p>Fig.1. Pinagens do Arduino RP2040.</p> 
+ <img height="350em" src="https://raw.githubusercontent.com/johnbarbosas/IoT_Energy_Meter/main/README_img/zmpt101b.jpeg"/>
+ <p>Fig.2. Sensor de tensão zmpt101b.</p> 
   </div>
   
 <div style="display: inline_block" align="center">
  <img height="350em" src="https://raw.githubusercontent.com/johnbarbosas/IoT_Energy_Meter/main/README_img/Sensor_de_corrente.jpeg"/>
- <p>Fig.1. Pinagens do Arduino RP2040.</p> 
+ <p>Fig.3. Sensor de corrente SCT013.</p> 
   </div>
 
   
