@@ -29,10 +29,11 @@ Já existem diversos medidores de energia que podem monitorar o consumo de cada 
  <p>Fig.1. Pinagens do Arduino RP2040.</p> 
   </div>
   </ br>
-***Sensores:***
+  
+  ***Sensores:***
 
 <div style="display: inline_block" align="center">
- <img height="350em" src="https://docs.arduino.cc/static/a4d65079ebe3058e37153eb0f93890a8/ABX00053-pinout.png"/>
+ <img height="350em" src="https://raw.githubusercontent.com/johnbarbosas/IoT_Energy_Meter/main/README_img/Sensor_de_corrente.jpeg"/>
  <p>Fig.1. Pinagens do Arduino RP2040.</p> 
   </div>
 
