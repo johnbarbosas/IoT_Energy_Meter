@@ -7,7 +7,10 @@ Já existem diversos medidores de energia que podem monitorar o consumo de cada 
 <h2>Objetivo</h2>
 <p align="justify">O intuito deste projeto é desenvolver um sistema IoT que seja capaz de medir a potência elétrica e a energia consumida de um equipamento e/ou sistema por meio da tensão de entrada e da corrente que o sistema drena e com estes dados armazená-los para futuras análises.</p>
 
-**Materiais utilizados**
+<h2>Descrição do projeto</h2>
+<p align="justify"> Este projeto tem como objetivo a construção de um dispositivo que faça a medição do consumo de energia elétrica de um equipamento ou sistema de forma prática e menos invasiva possível com componentes acessiveis. O funcionamento do dispositivo se dá por dois sensores, um de corrente e outro de tensão elétrica, os valores obtidos por eles são enviados a um microcontrolador que irá realizar os cálculos de potência, energia consumida e o custo financeiro desta energia.</p>
+
+***Materiais utilizados:***
 <p> Para a prototipagem inicial foram utilizados os materiais disponibilizados pelo FIT e sensores próprios dos alunos. </p>
 - 2x resistores de 10 kΩ;<br />
 - 1x resistor de 33 Ω;<br />
@@ -22,3 +25,4 @@ Já existem diversos medidores de energia que podem monitorar o consumo de cada 
 <div style="display: inline_block" align="center">
  <img height="350em" src="https://docs.arduino.cc/static/a4d65079ebe3058e37153eb0f93890a8/ABX00053-pinout.png"/> 
   </div>
+  <p>Fig.1. Pinagens do Arduino RP2040.</p> 
