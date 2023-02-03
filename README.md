@@ -29,7 +29,13 @@ Já existem diversos medidores de energia que podem monitorar o consumo de cada 
  <p>Fig.1. Pinagens do Arduino RP2040.</p> 
   </div>
   </ br>
-  ** Sensores utilizados **
+***Sensores:***
+
+<div style="display: inline_block" align="center">
+ <img height="350em" src="https://docs.arduino.cc/static/a4d65079ebe3058e37153eb0f93890a8/ABX00053-pinout.png"/>
+ <p>Fig.1. Pinagens do Arduino RP2040.</p> 
+  </div>
+
   
   <h2>Virtual Machine | Broker | NodeRED</h2>
   
