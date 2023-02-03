@@ -69,7 +69,7 @@ void loop() {
   correnteMedia = 0;
 
   for (int j = 0; j<100; j++){ // 100 ciclos da senoide 
-     for (int i = 0; i<360; i++){ // leitura a cada grau da senoide
+     for (int i = 0; i<360; i++){ // leitura a cada grau da senoide e cálculo do valor RMU fazendo a "integral" (somatório)
       
         leituraT = analogRead(voltPin) - 727.5; // leitura da tensão e zerar o offset
         // Serial.print("Tensão: ");
