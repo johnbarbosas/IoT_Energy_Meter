@@ -78,11 +78,11 @@ A montagem do circuito em protoboard pode ser visto na figura a seguir.
   [passo a passo]: https://nodered.org/docs/getting-started/aws
   
   <div style="display: inline_block" align="center">
- <img height="350em" src="https://raw.githubusercontent.com/johnbarbosas/IoT_Energy_Meter/main/README_img/node1.png"/>
+ <img height="350em" src="https://raw.githubusercontent.com/johnbarbosas/IoT_Energy_Meter/main/README_img/node1.jpg"/>
  <p>Fig.5. Diagrama de blocos do NodeRED.</p> 
 </div>
 
 <div style="display: inline_block" align="center">
- <img height="350em" src="https://raw.githubusercontent.com/johnbarbosas/IoT_Energy_Meter/main/README_img/node2.png"/>
+ <img height="350em" src="https://raw.githubusercontent.com/johnbarbosas/IoT_Energy_Meter/main/README_img/node2.jpg"/>
  <p>Fig.6. Informações do Arduino enviadas para o NodeRED.</p> 
 </div>
