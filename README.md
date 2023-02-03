@@ -44,8 +44,8 @@ Já existem diversos medidores de energia que podem monitorar o consumo de cada 
 <h3>Processos de medição:</h3>
 
 <div style="display: inline_block" align="center">
- <img height="350em" src="https://raw.githubusercontent.com/johnbarbosas/IoT_Energy_Meter/main/README_img/Sensor_de_corrente.jpeg"/>
- <p>Fig.3. Sensor de corrente SCT013.</p> 
+ <img height="350em" src="https://raw.githubusercontent.com/johnbarbosas/IoT_Energy_Meter/main/README_img/sensor-de-tensao-ac-zmpt101b-voltimetro-arduino.jpg"/>
+ <p>Fig.4. Diagrama de ligação do sensor de tensão[2].</p> 
 </div>
   
   <h2>Virtual Machine | Broker | NodeRED</h2>
