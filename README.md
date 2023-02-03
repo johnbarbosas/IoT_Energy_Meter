@@ -31,3 +31,14 @@ Já existem diversos medidores de energia que podem monitorar o consumo de cada 
   </ br>
   ** Sensores utilizados **
   
+  <h2>Virtual Machine | Broker | NodeRED</h2>
+  
+  Um dos protocolos mais simples para trocas de mensagem via internet no mundo do IoT é o [MQTT] (MQ Telemetry Transport). Nele há um agente central que irá receber todas as notificações, chamado de servidor broker. Os dispositivos podem publicar em *tópicos* desse broker, assim como se inscrever nos tópicos para receber as mensagens.
+  
+  Foi criada uma máquina virtual (MV), gratuitamente, no [Amazon Web Service] e instalado um broker MQTT através do [vídeo] tutorial do YouTube. Nessa MV foi instalado também o NodeRED seguindo o [passo a passo] da própria plataforma.
+  
+  
+  [MQTT]: https://mqtt.org/
+  [Amazon Web Service]: https://aws.amazon.com/pt/
+  [vídeo]: https://www.youtube.com/watch?v=z5vx93uKr_U
+  [passo a passo]: https://nodered.org/docs/getting-started/aws
