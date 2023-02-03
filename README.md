@@ -48,18 +48,21 @@ A montagem do circuito em protoboard pode ser visto na figura a seguir.
 </p>
 <div style="display: inline_block" align="center">
  <img height="350em" src="https://raw.githubusercontent.com/johnbarbosas/IoT_Energy_Meter/main/README_img/montagem_do_sensor_de_tensao.jpeg"/>
- <p>Fig.4. Diagrama de ligação do sensor de tensão [2].</p> 
+ <p>Fig.4. Montagem do sensor de tensão na protoboard.</p> 
 </div>
   
   <div style="display: inline_block" align="center">
  <img height="350em" src="https://raw.githubusercontent.com/johnbarbosas/IoT_Energy_Meter/main/README_img/montagem_do_sensor_de_corrente.jpeg"/>
- <p>Fig.4. Montagem do sensor de corrente [2].</p> 
+ <p>Fig.5. Montagem do sensor de corrente na protoboard.</p> 
 </div>
 
 <div style="display: inline_block" align="center">
  <img height="350em" src="https://raw.githubusercontent.com/johnbarbosas/IoT_Energy_Meter/main/README_img/Esquema_final.jpeg"/>
- <p>Fig.4. Diagrama de ligação do sensor de tensão[2].</p> 
+ <p>Fig.6. Montagem completo do circuito.</p> 
 </div>
+
+
+
   <h2>Virtual Machine | Broker | NodeRED</h2>
   
   Um dos protocolos mais simples para trocas de mensagem, via internet, no mundo do IoT é o [MQTT] (MQ Telemetry Transport). Nele há um agente central que irá receber todas as notificações, chamado de servidor broker. Os dispositivos podem publicar em *tópicos* desse broker, assim como se inscrever nos tópicos para receber as mensagens.
