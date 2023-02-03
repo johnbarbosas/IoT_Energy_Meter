@@ -44,13 +44,22 @@ Já existem diversos medidores de energia que podem monitorar o consumo de cada 
 
 <h3>Processos de medição:</h3>
 <p align="justify">Nesta etapa utilizou-se o módulo zmpt101b ligado ao Arduino RP2040 juntamente com a protoboard e jumpers para conexão. Os dois pinos GNDs do módulo foram ligados ao GND do Arduino, o pino VCC ao pino Vin e o Vout conectou-se à porta analógica A2.
-a montagem do circuito em protoboard pode ser visto na figura a seguir.
+A montagem do circuito em protoboard pode ser visto na figura a seguir.
 </p>
 <div style="display: inline_block" align="center">
- <img height="350em" src="https://raw.githubusercontent.com/johnbarbosas/IoT_Energy_Meter/main/README_img/sensor-de-tensao-ac-zmpt101b-voltimetro-arduino.jpg"/>
- <p>Fig.4. Diagrama de ligação do sensor de tensão[2].</p> 
+ <img height="350em" src="https://raw.githubusercontent.com/johnbarbosas/IoT_Energy_Meter/main/README_img/montagem_do_sensor_de_tensao.jpeg"/>
+ <p>Fig.4. Diagrama de ligação do sensor de tensão [2].</p> 
 </div>
   
+  <div style="display: inline_block" align="center">
+ <img height="350em" src="https://raw.githubusercontent.com/johnbarbosas/IoT_Energy_Meter/main/README_img/montagem_do_sensor_de_corrente.jpeg"/>
+ <p>Fig.4. Montagem do sensor de corrente [2].</p> 
+</div>
+
+<div style="display: inline_block" align="center">
+ <img height="350em" src="https://raw.githubusercontent.com/johnbarbosas/IoT_Energy_Meter/main/README_img/Esquema_final.jpeg"/>
+ <p>Fig.4. Diagrama de ligação do sensor de tensão[2].</p> 
+</div>
   <h2>Virtual Machine | Broker | NodeRED</h2>
   
   Um dos protocolos mais simples para trocas de mensagem, via internet, no mundo do IoT é o [MQTT] (MQ Telemetry Transport). Nele há um agente central que irá receber todas as notificações, chamado de servidor broker. Os dispositivos podem publicar em *tópicos* desse broker, assim como se inscrever nos tópicos para receber as mensagens.
